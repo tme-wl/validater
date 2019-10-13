@@ -125,18 +125,18 @@ class FormMyStudent(Validater):
 
 if __name__ == '__main__':
     '''测试'''
-    data1 = {"username": '王龙', 'years': '20', 'value': '80', "phone": '18789878787'}
-    data2 = {"username": 'wl', 'years': '21', 'value': '80', "phone": '18789878739'}
-    data3 = {"username": 'wl', 'years': '21', 'value': '80', "phone": ''}
+    data1 = {"username": '王', 'years': '20', 'value': '80', "phone": '18799999999'}
+    data2 = {"username": 'w', 'years': '21', 'value': '80', "phone": '18799999999'}
+    data3 = {"username": 'w', 'years': '21', 'value': '80', "phone": ''}
 
-    data4 = {"username": 'wl', 'years': '21', 'value': '', "phone": '18789878739'}
-    data5 = {"username": 'wl', 'years': '20', 'value': '80', "phone": '18789878787', 'a': 'b'}
-    data6 = {"username": 'wl00op0o', 'years': '20', 'value': 'phone', "key": '18789878787'}
-    data7 = {"username": '王龙', 'years': '200', 'value': '80', "phone": '18789878787'}
-    data8 = {"username": '王龙', 'years': '20', 'value': '-1', "phone": '18789878787'}
-    data9 = {"username": '王龙', 'years': '20.9', 'value': '80', "phone": '18789878787'}
-    data10 = {"username": '王龙', 'years': '20', 'value': '', "phone": '18789878787'}
-    data11 = {"username": '王龙', 'years': '20', 'value': '80', "phone": '187898787898'}
+    data4 = {"username": 'w', 'years': '21', 'value': '', "phone": '18799999999'}
+    data5 = {"username": 'w', 'years': '20', 'value': '80', "phone": '18799999999', 'a': 'b'}
+    data6 = {"username": 'wl00op0o', 'years': '20', 'value': 'phone', "key": '18799999999'}
+    data7 = {"username": '王', 'years': '200', 'value': '80', "phone": '18799999999'}
+    data8 = {"username": '王', 'years': '20', 'value': '-1', "phone": '18799999999'}
+    data9 = {"username": '王', 'years': '20.9', 'value': '80', "phone": '18799999999'}
+    data10 = {"username": '王', 'years': '20', 'value': '', "phone": '18799999999'}
+    data11 = {"username": '王', 'years': '20', 'value': '80', "phone": '18799999999'}
     all_data = [data1, data2, data3, data4, data5, data6, data7, data8, data9, data10, data11]
     for data in all_data:
         test = FormMyStudent(data)
